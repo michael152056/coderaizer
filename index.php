@@ -40,7 +40,7 @@
                     <div class="mt-4 mb-4">Selecciona el archivo #1<br>
                         <div class="text-formats">Solo se permite formatos .py</div><br>
                         <span class="archivo">
-                            <input type="file" name="archivo" id="archivo" accept="archivo/py" required>
+                            <input type="file" name="archivo" id="archivo" required>
                         </span>
                         <label for="archivo" class="rounded">
                             <span>
@@ -66,7 +66,7 @@
                     <div class="mt-4 mb-4">Selecciona el archivo #2<br>
                         <div class="text-formats">Solo se permite formatos .py</div><br>
                         <span class="archivo2">
-                            <input type="file" name="archivo2" id="archivo2" accept="archivo2/py" required>
+                            <input type="file" name="archivo2" id="archivo2" required>
                         </span>
                         <label for="archivo2" class="rounded">
                             <span>
