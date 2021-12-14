@@ -1,5 +1,5 @@
 <?php
-header("Content-Type: image/webp");
+header("Content-Type: multipart/form-data");
 $stuff = exec('python ../../code/heatmap.py', $output);
 foreach($output as $key=>$value){
     if($key==1)
