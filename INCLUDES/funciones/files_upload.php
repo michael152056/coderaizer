@@ -12,7 +12,7 @@ if($flag == "code"){
 
             $time = time();
             $new_img_name = $time.$img_name;
-            if(move_uploaded_file($tmp_name,"../../temp/".$new_img_name)){
+            if(move_uploaded_file($tmp_name,"../../tmp/".$new_img_name)){
                echo json_encode($new_img_name);
             }
 }
