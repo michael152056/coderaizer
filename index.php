@@ -25,7 +25,7 @@
                 <div class="lenguajes">
                     <ul class="nav nav-pills nav-fill">
                         <li class="nav-item">
-                            <a class="nav-link nav-active" aria-current="page" href="coderaizer.php">Python</a>
+                            <a class="nav-link nav-active" aria-current="page" href="index.php">Python</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-default " href="coderaizer_java.php">Java</a>
