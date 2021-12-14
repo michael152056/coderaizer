@@ -1,5 +1,5 @@
 <?php
-header("Content-Type: multipart/form-data");
+header("Content-Type: multipart/byteranges");
 $stuff = exec('python ../../code/heatmap.py', $output);
 foreach($output as $key=>$value){
     if($key==1)
