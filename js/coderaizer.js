@@ -61,7 +61,7 @@ function editar() {
   xhr.onload = () => {
     if (xhr.readyState === XMLHttpRequest.DONE) {
       if (xhr.status === 200) {
-        readTextFile("temp/" + fichero1);
+        readTextFile("tmp/" + fichero1);
         Swal.fire({
           position: 'center',
           icon: 'success',
@@ -85,7 +85,7 @@ function editar2() {
   xhr.onload = () => {
     if (xhr.readyState === XMLHttpRequest.DONE) {
       if (xhr.status === 200) {
-        readTextFile2("temp/" + fichero2);
+        readTextFile2("tmp/" + fichero2);
         Swal.fire({
           position: 'center',
           icon: 'success',
@@ -109,8 +109,8 @@ function leer_fichero1() {
     if (xhr.readyState === XMLHttpRequest.DONE) {
       if (xhr.status === 200) {
         $nombre_fichero = JSON.parse(xhr.responseText);
-        fichero1 = "../../temp/" + $nombre_fichero;
-        readTextFile("temp/" + $nombre_fichero);
+        fichero1 = "../../tmp/" + $nombre_fichero;
+        readTextFile("tmp/" + $nombre_fichero);
       }
     }
   }
@@ -127,8 +127,8 @@ function leer_fichero2() {
     if (xhr.readyState === XMLHttpRequest.DONE) {
       if (xhr.status === 200) {
         $nombre_fichero = JSON.parse(xhr.responseText);
-        fichero2 = "../../temp/" + $nombre_fichero;
-        readTextFile2("temp/" + $nombre_fichero);
+        fichero2 = "../../tmp/" + $nombre_fichero;
+        readTextFile2("tmp/" + $nombre_fichero);
 
       }
     }
