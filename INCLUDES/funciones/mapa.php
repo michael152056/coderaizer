@@ -1,5 +1,5 @@
 <?php
-header("Content-Type: image/png");
+header("Content-Type: image/jpg");
 $stuff = exec('python ../../code/heatmap.py', $output);
 foreach($output as $key=>$value){
     if($key==1)
